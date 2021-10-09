@@ -1,0 +1,12 @@
+{
+  "name": "download-file",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.14.2"
+  },
+  "scripts": {
+    "build": "uglifyjs lib/index.js -m --mangle-props -c -o  dist/index.js" 
+  }
+}
