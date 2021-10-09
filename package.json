@@ -1,7 +1,7 @@
 {
   "name": "weituoyeben-js-file",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "git-repository": "https://github.com/weituoyeben/js-file",
   "devDependencies": {
