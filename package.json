@@ -1,15 +1,33 @@
 {
-  "name": "weituoyeben-js-file",
-  "version": "1.0.0",
+  "name": "weituoyeben_download_file",
+  "version": "1.0.2",
   "main": "dist/index.js",
+  "keywords": [
+    "blob",
+    "base64",
+    "file",
+    "download"
+  ],
   "license": "MIT",
-  "git-repository": "https://github.com/weituoyeben/js-file",
   "devDependencies": {
     "uglify-js": "^3.14.2"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "uglifyjs lib/index.js -m --mangle-props -c -o  dist/index.js"
   },
   "author": "weituoyeben",
-  "repository": "git@github.com:weituoyeben/js-file.git"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weituoyeben/js-file.git"
+  },
+  "description": "transformation functions of file/blob/base64",
+  "bugs": {
+    "url": "https://github.com/weituoyeben/js-file/issues"
+  },
+  "homepage": "https://github.com/weituoyeben/js-file#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
