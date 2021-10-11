@@ -1,6 +1,6 @@
 {
-  "name": "weituoyeben_download_file",
-  "version": "1.0.2",
+  "name": "blob-url-file",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "keywords": [
     "blob",
